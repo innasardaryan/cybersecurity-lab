@@ -1,0 +1,12 @@
+Host: git01 | IP: 203.0.113.7 | Count: 38
+Host: git01 | IP: 192.0.2.201 | Count: 22
+Host: git01 | IP: 10.0.20.9 | Count: 1
+Host: vpn01 | IP: 203.0.113.7 | Count: 54
+Host: vpn01 | IP: 198.51.100.77 | Count: 41
+Host: vpn01 | IP: 10.0.30.7 | Count: 3
+Host: web01 | IP: 203.0.113.7 | Count: 187
+Host: web01 | IP: 198.51.100.23 | Count: 63
+Host: web01 | IP: 192.0.2.88 | Count: 29
+Host: web01 | IP: 10.0.12.51 | Count: 3
+Host: web01 | IP: 10.0.20.9 | Count: 2
+Host: web01 | IP: 10.0.12.34 | Count: 2
