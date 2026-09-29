@@ -1,0 +1,127 @@
+--part b 1--
+
+user: grace | result: success
+user: bob | result: success
+user: grace | result: success
+user: frank | result: success
+user: svc_web | result: success
+user: alice | result: success
+user: dave | result: success
+user: erin | result: success
+user: frank | result: success
+user: grace | result: success
+user: grace | result: success
+user: carol | result: success
+user: alice | result: success
+user: erin | result: success
+user: alice | result: success
+user: grace | result: success
+user: bob | result: success
+user: svc_web | result: success
+user: grace | result: success
+user: deploy | result: success
+user: svc_db | result: success
+user: grace | result: success
+user: svc_web | result: fail
+user: bob | result: success
+user: grace | result: fail
+
+
+
+--part 2--
+ip:10.0.34.223 | fails: 5
+ip:10.0.17.14 | fails: 3
+ip:10.0.38.75 | fails: 3
+ip:10.0.27.241 | fails: 3
+ip:10.0.23.217 | fails: 1
+ip:10.0.35.6 | fails: 1
+ip:10.0.35.213 | fails: 2
+ip:10.0.20.90 | fails: 1
+ip:10.0.13.85 | fails: 5
+ip:10.0.21.43 | fails: 2
+ip:10.0.1.37 | fails: 1
+ip:10.0.24.217 | fails: 3
+ip:10.0.29.202 | fails: 3
+ip:10.0.38.92 | fails: 2
+ip:10.0.1.23 | fails: 4
+ip:10.0.40.157 | fails: 1
+ip:10.0.5.196 | fails: 3
+ip:10.0.39.143 | fails: 3
+ip:10.0.40.241 | fails: 2
+ip:10.0.29.11 | fails: 1
+ip:10.0.37.42 | fails: 4
+ip:10.0.33.128 | fails: 1
+ip:10.0.2.184 | fails: 7
+ip:10.0.12.202 | fails: 2
+ip:10.0.4.85 | fails: 4
+ip:10.0.23.153 | fails: 2
+ip:10.0.31.211 | fails: 3
+ip:10.0.1.142 | fails: 1
+ip:10.0.36.196 | fails: 4
+ip:10.0.8.86 | fails: 3
+ip:10.0.32.52 | fails: 3
+ip:198.51.100.77 | fails: 41
+ip:203.0.113.7 | fails: 279
+ip:10.0.30.103 | fails: 2
+ip:198.51.100.14 | fails: 94
+ip:10.0.30.7 | fails: 3
+ip:203.0.113.44 | fails: 61
+ip:192.0.2.88 | fails: 29
+ip:198.51.100.23 | fails: 63
+ip:192.0.2.130 | fails: 38
+ip:10.0.3.103 | fails: 4
+ip:10.0.20.9 | fails: 3
+ip:10.0.12.34 | fails: 2
+ip:10.0.12.51 | fails: 3
+ip:10.0.17.219 | fails: 1
+ip:192.0.2.201 | fails: 22
+ip:10.0.34.81 | fails: 3
+ip:10.0.24.28 | fails: 1
+ip:10.0.17.72 | fails: 2
+ip:10.0.10.204 | fails: 1
+ip:10.0.13.141 | fails: 2
+ip:10.0.32.136 | fails: 1
+ip:10.0.37.125 | fails: 1
+ip:10.0.30.85 | fails: 1
+ip:10.0.39.139 | fails: 1
+ip:10.0.29.201 | fails: 1
+ip:10.0.39.78 | fails: 2
+ip:10.0.40.206 | fails: 1
+ip:10.0.8.101 | fails: 1
+ip:10.0.12.47 | fails: 1
+ip:10.0.23.176 | fails: 1
+ip:10.0.17.68 | fails: 1
+ip:10.0.14.123 | fails: 1
+
+
+--part 3--
+1.alarm:203.0.113.7 | fails: 279
+alarm:198.51.100.14 | fails: 94
+alarm:203.0.113.44 | fails: 61
+alarm:198.51.100.23 | fails: 63
+
+2.yes 203.0.113.7 is also here,its attempts are more here,pythoni csvum bolor attemptnery irar het en,isk en 187y menak web01i vra er
+
+3.grep 192.0.2.130 events.csv | head -1 
+2026-09-14 03:20:00,postgres,192.0.2.130,ssh,fail,app01,54555,CN
+student@ubuntu-lab1:~/Downloads/lab_data$ grep 192.0.2.130 events.csv | tail -1 
+2026-09-14 03:22:00,test,192.0.2.130,ssh,fail,app01,17525,CN
+student@ubuntu-lab1:~/Downloads/lab_data$ 
+
+2 min,not safe for 38 attempts in 2 min
+
+4.alarm:203.0.113.44 | fails: 61
+alarm:198.51.100.23 | fails: 63
+alarm:192.0.2.130 | fails: 38
+
+ there is 29 as well still not safe
+
+5.maybe 15-20,attackery kara urish hosteric porcer katari kam nuyn hostic bayc ush-ush
+
+
+6.2026-09-14 03:15:52,ubuntu,203.0.113.7,ssh,success,web01,51902,RO
+
+attacker is in
+
+
+

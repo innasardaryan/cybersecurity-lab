@@ -1,0 +1,21 @@
+--part c 2--
+report logs/git01.auth.log
+total fails:61
+top 5 ips:     38 203.0.113.7
+     22 192.0.2.201
+      1 10.0.20.9
+report logs/vpn01.auth.log
+total fails:98
+top 5 ips:     54 203.0.113.7
+     41 198.51.100.77
+      3 10.0.30.7
+report logs/web01.auth.log
+total fails:286
+top 5 ips:    187 203.0.113.7
+     63 198.51.100.23
+     29 192.0.2.88
+      3 10.0.12.51
+      2 10.0.20.9
+
+----------------------------
+

